@@ -1,0 +1,28 @@
+body {
+  position: relative;
+}
+
+#Home { 
+	background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+#About { 
+	background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+#Portfolio { 
+	background-color: #1abc9c; /* Green */
+    color: #ffffff;
+}
+
+#Contact { 
+	background-color: #474e5d; /* Dark Blue */
+    color: #ffffff;
+}
+
+.section {
+	padding-top: 150px;
+	padding-bottom: 150px;
+}
