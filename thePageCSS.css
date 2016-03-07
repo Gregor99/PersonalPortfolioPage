@@ -1,5 +1,11 @@
 body {
   position: relative;
+    padding-top: 50px;
+  }
+  @media (min-width: 768px) and (max-width: 979px) {
+    body {
+      padding-top: 0;
+    }
 }
 
 #Home { 
@@ -23,6 +29,21 @@ body {
 }
 
 .section {
-	padding-top: 150px;
-	padding-bottom: 150px;
+	height: 100vh;
+  padding-top:20vh;
+}
+
+.socialA {
+  padding: 10px;
+}
+
+.social {
+    width: 45px;
+    height: 45px;
+    color: #FFF;
+    background-color: #909AA0;
+    font-size: 22px;
+    text-align::;center;
+    padding-top: 12px;
+    border-radius: 50%;
 }
